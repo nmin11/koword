@@ -1,0 +1,44 @@
+{
+  "words": [
+    {
+      "word": "provide",
+      "meaning": ["공급하다", "제공하다", "준비하다"]
+    },
+    {
+      "word": "develop",
+      "meaning": ["개발하다", "발달하다", "발전하다"]
+    },
+    {
+      "word": "service",
+      "meaning": ["서비스", "봉사", "공공기관", "공공업무"]
+    },
+    {
+      "word": "inform",
+      "meaning": ["알리다", "통지하다", "알려주다"]
+    },
+    {
+      "word": "relationship",
+      "meaning": ["관계", "연관"]
+    },
+    {
+      "word": "improve",
+      "meaning": ["개선하다", "향상하다", "향상시키다", "증진시키다"]
+    },
+    {
+      "word": "individual",
+      "meaning": ["개인", "개인의", "개인적인", "독특한"]
+    },
+    {
+      "word": "require",
+      "meaning": ["요구하다", "필요로 하다", "요청하다"]
+    },
+    {
+      "word": "advise",
+      "meaning": ["조언하다", "충고하다", "알리다"]
+    },
+    {
+      "word": "social",
+      "meaning": ["사회의", "사회적인", "사교적인"]
+    }
+  ]
+}
