@@ -1,0 +1,16 @@
+[
+  {
+    "name": "kotlin.reflect.jvm.internal.ReflectionFactoryImpl",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "model.WordBook",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "model.WordBook$Word",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  }
+]

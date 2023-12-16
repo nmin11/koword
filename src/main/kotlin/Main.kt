@@ -6,10 +6,10 @@ fun main(args: Array<String>) {
 
 class KowordApplication() {
   fun execute(args: Array<String>) {
-    val argParser = ArgParser(programName = "Koword")
-    argParser.subcommands(
+    val parser = ArgParser(programName = "Koword")
+    parser.subcommands(
       Sample(),
     )
-    argParser.parse(args.ifEmpty { arrayOf("-h") })
+    parser.parse(args.ifEmpty { arrayOf("-h") })
   }
 }
