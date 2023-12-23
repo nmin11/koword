@@ -3,6 +3,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import command.Guess
+import command.Mean
 import kotlinx.cli.ArgParser
 import model.WordBook
 import java.security.SecureRandom
@@ -28,6 +29,7 @@ class KowordApplication() {
     val parser = ArgParser(programName = "Koword")
     parser.subcommands(
       Guess(),
+      Mean(),
     )
     parser.parse(args.ifEmpty { arrayOf("-h") })
   }
