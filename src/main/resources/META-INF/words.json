@@ -3,212 +3,152 @@
     {
       "word": "provide",
       "meaning": ["공급하다", "제공하다", "준비하다"],
-      "example": "The hotel provides a free shuttle bus to the airport.",
-      "synonyms": ["supply", "give", "furnish", "afford", "prepare"],
-      "antonyms": ["overlook", "remove", "deprive", "withhold", "deny"]
+      "example": "The hotel provides a free shuttle bus to the airport."
     },
     {
       "word": "develop",
       "meaning": ["개발하다", "발달하다", "발전하다"],
-      "example": "The company is developing a new drug.",
-      "synonyms": ["expand", "grow", "advance", "evolve", "progress"],
-      "antonyms": ["destroy", "restrict", "worsen", "weaken", "impair"]
+      "example": "The company is developing a new drug."
     },
     {
       "word": "service",
       "meaning": ["서비스", "봉사", "공공기관", "공공업무"],
-      "example": "The hotel offers a full service business center.",
-      "synonyms": ["work", "duty", "kindness", "help", "labor"],
-      "antonyms": ["disfavor", "disadvantage", "hindrance", "loss", "unemployment"]
+      "example": "The hotel offers a full service business center."
     },
     {
       "word": "inform",
       "meaning": ["알리다", "통지하다", "알려주다"],
-      "example": "Please inform us of any changes of address.",
-      "synonyms": ["tell", "advise", "notify", "instruct", "enlighten"],
-      "antonyms": ["conceal", "hide", "withhold", "mislead", "deceive"]
+      "example": "Please inform us of any changes of address."
     },
     {
       "word": "relationship",
       "meaning": ["관계", "연관"],
-      "example": "The two countries have a close relationship.",
-      "synonyms": ["connection", "association", "link", "affiliation", "bond"],
-      "antonyms": ["disconnection", "disassociation", "disaffiliation", "disunion", "separation"]
+      "example": "The two countries have a close relationship."
     },
     {
       "word": "improve",
       "meaning": ["개선하다", "향상하다", "향상시키다", "증진시키다"],
-      "example": "He spent hours collecting data that he thought would help him improve",
-      "synonyms": ["better", "enhance", "upgrade", "amend", "refine"],
-      "antonyms": ["worsen", "impair", "damage", "harm", "hurt"]
+      "example": "He spent hours collecting data that he thought would help him improve"
     },
     {
       "word": "individual",
       "meaning": ["개인", "개인의", "개인적인", "독특한"],
-      "example": "Each individual has a different opinion.",
-      "synonyms": ["person", "human", "character", "creature", "soul"],
-      "antonyms": ["group", "collective", "mass", "public", "community"]
+      "example": "Each individual has a different opinion."
     },
     {
       "word": "require",
       "meaning": ["요구하다", "필요로 하다", "요청하다"],
-      "example": "The job requires a lot of patience.",
-      "synonyms": ["demand", "need", "necessitate", "compel", "force"],
-      "antonyms": ["disallow", "forbid", "prohibit", "reject", "refuse"]
+      "example": "The job requires a lot of patience."
     },
     {
       "word": "advise",
       "meaning": ["조언하다", "충고하다", "알리다"],
-      "example": "Experts advise that you should eat a balanced diet.",
-      "synonyms": ["counsel", "recommend", "suggest", "urge", "propose"],
-      "antonyms": ["mislead", "deceive", "delude", "misguide", "misinform"]
+      "example": "Experts advise that you should eat a balanced diet."
     },
     {
       "word": "social",
       "meaning": ["사회의", "사회적인", "사교적인"],
-      "example": "The Internet and communication technology have changed our social life.",
-      "synonyms": ["public", "communal", "collective", "group", "community"],
-      "antonyms": ["private", "personal", "individual", "solitary", "lonely"]
+      "example": "The Internet and communication technology have changed our social life."
     },
     {
       "word": "amount",
       "meaning": ["양", "총계", "총액"],
-      "example": "The amount of money you earn depends on the number of hours you work.",
-      "synonyms": ["quantity", "sum", "total", "aggregate", "measure"],
-      "antonyms": ["lack", "need", "dearth", "shortage", "deficiency"]
+      "example": "The amount of money you earn depends on the number of hours you work."
     },
     {
       "word": "behave",
       "meaning": ["행동하다", "처신하다"],
-      "example": "In the classroom, students are expected to behave properly.",
-      "synonyms": ["act", "conduct", "perform", "function", "operate"],
-      "antonyms": ["misbehave", "act up", "act out", "be bad", "be naughty"]
+      "example": "In the classroom, students are expected to behave properly."
     },
     {
       "word": "employ",
       "meaning": ["고용하다", "채용하다", "이용하다"],
-      "example": "Her father employed her in keeping accounts and in dealing with tenants.",
-      "synonyms": ["hire", "engage", "appoint", "recruit", "enlist"],
-      "antonyms": ["fire", "dismiss", "discharge", "sack", "lay off"]
+      "example": "Her father employed her in keeping accounts and in dealing with tenants."
     },
     {
       "word": "attitude",
       "meaning": ["태도", "자세", "입장"],
-      "example": "Sociologists have studied the attitudes of the middle class to marriage.",
-      "synonyms": ["view", "opinion", "stance", "position", "perspective"],
-      "antonyms": ["disinterest", "disregard", "disrespect", "neglect", "unconcern"]
+      "example": "Sociologists have studied the attitudes of the middle class to marriage."
     },
     {
       "word": "research",
       "meaning": ["연구", "조사", "연구하다", "조사하다"],
-      "example": "Bakers are doing research to find a way to make bread stay fresh longer.",
-      "synonyms": ["investigation", "study", "inquiry", "examination", "analysis"],
-      "antonyms": ["ignorance", "neglect", "disregard", "disinterest", "unconcern"]
+      "example": "Bakers are doing research to find a way to make bread stay fresh longer."
     },
     {
       "word": "audience",
       "meaning": ["청중", "관객", "청취자"],
-      "example": "The audience applauded at the end of the concert.",
-      "synonyms": ["spectators", "viewers", "listeners", "onlookers", "crowd"],
-      "antonyms": ["performers", "actors", "players", "cast", "troupe"]
+      "example": "The audience applauded at the end of the concert."
     },
     {
       "word": "volunteer",
       "meaning": ["자원봉사", "자원하다", "자원봉사자", "자원자"],
-      "example": "Many people volunteered to help the victims of the earthquake.",
-      "synonyms": ["offer", "present", "give", "contribute", "donate"],
-      "antonyms": ["refuse", "suppress", "mercenary", "remunerated", "compensated"]
+      "example": "Many people volunteered to help the victims of the earthquake."
     },
     {
       "word": "influence",
       "meaning": ["영향", "영향력", "영향을 미치다"],
-      "example": "The influence of the Internet on young people is very strong.",
-      "synonyms": ["effect", "impact", "sway", "control", "power"],
-      "antonyms": ["impotence", "powerlessness", "weakness", "inability", "incapacity"]
+      "example": "The influence of the Internet on young people is very strong."
     },
     {
       "word": "terrible",
       "meaning": ["끔찍한", "무서운"],
-      "example": "Henry realized that he had made a terrible mistake.",
-      "synonyms": ["awful", "dreadful", "horrible", "frightful", "appalling"],
-      "antonyms": ["wonderful", "excellent", "fantastic", "marvelous", "superb"]
+      "example": "Henry realized that he had made a terrible mistake."
     },
     {
       "word": "opportunity",
       "meaning": ["기회", "가능성"],
-      "example": "Everyone should have an equal opportunity.",
-      "synonyms": ["chance", "occasion", "opening", "break", "prospect"],
-      "antonyms": ["misfortune", "disaster", "calamity", "catastrophe", "failure"]
+      "example": "Everyone should have an equal opportunity."
     },
     {
       "word": "ability",
       "meaning": ["능력", "재능", "재주"],
-      "example": "He has the ability to learn a foreign language quickly.",
-      "synonyms": ["skill", "talent", "capacity", "capability", "competence"],
-      "antonyms": ["inability", "incapacity", "incompetence", "inadequacy", "weakness"]
+      "example": "He has the ability to learn a foreign language quickly."
     },
     {
       "word": "expense",
       "meaning": ["비용", "경비", "지출"],
-      "example": "The cost of living is rising, and expenses are getting higher.",
-      "synonyms": ["cost", "price", "charge", "payment", "outlay"],
-      "antonyms": ["income", "revenue", "profit", "gain", "benefit"]
+      "example": "The cost of living is rising, and expenses are getting higher."
     },
     {
       "word": "local",
       "meaning": ["지역의", "현지의", "지방의"],
-      "example": "Also, you'll learn to cook traditional food from local villagers.",
-      "synonyms": ["regional", "district", "community", "neighborhood", "municipal"],
-      "antonyms": ["foreign", "alien", "nonnative", "nonresident", "nonresident"]
+      "example": "Also, you'll learn to cook traditional food from local villagers."
     },
     {
       "word": "involve",
       "meaning": ["포함하다", "관련되다", "연루시키다"],
-      "example": "Our group is involved in a project to help the homeless.",
-      "synonyms": ["include", "contain", "comprise", "entail", "encompass"],
-      "antonyms": ["exclude", "omit", "except", "eliminate", "remove"]
+      "example": "Our group is involved in a project to help the homeless."
     },
     {
       "word": "stress",
       "meaning": ["강조하다", "압력을 주다", "압박"],
-      "example": "The biggest problem are damage to the eyes and stress on the neck and body.",
-      "synonyms": ["pressure", "strain", "tension", "anxiety", "worry"],
-      "antonyms": ["relaxation", "calm", "peace", "ease", "comfort"]
+      "example": "The biggest problem are damage to the eyes and stress on the neck and body."
     },
     {
       "word": "therefore",
       "meaning": ["그러므로", "그래서", "그 결과"],
-      "example": "The weather was bad. Therefore, we couldn't go out.",
-      "synonyms": ["consequently", "as a result", "thus", "hence", "accordingly"],
-      "antonyms": ["nevertheless", "however", "nonetheless", "notwithstanding", "yet"]
+      "example": "The weather was bad. Therefore, we couldn't go out."
     },
     {
       "word": "positive",
       "meaning": ["긍정적인", "확신하는"],
-      "example": "Before an event, people looked forward with positive anticipation.",
-      "synonyms": ["optimistic", "confident", "hopeful", "encouraging", "reassuring"],
-      "antonyms": ["negative", "pessimistic", "doubtful", "discouraging", "unfavorable"]
+      "example": "Before an event, people looked forward with positive anticipation."
     },
     {
       "word": "average",
       "meaning": ["평균", "평균치", "평균의"],
-      "example": "The average temperature in Seoul is 13 degrees Celsius.",
-      "synonyms": ["mean", "median", "norm", "standard", "usual"],
-      "antonyms": ["extreme", "unusual", "extraordinary", "abnormal", "atypical"]
+      "example": "The average temperature in Seoul is 13 degrees Celsius."
     },
     {
       "word": "ride",
       "meaning": ["타다", "승차하다", "타기"],
-      "example": "I ride my bike to school every day.",
-      "synonyms": ["drive", "travel", "journey", "commute", "go"],
-      "antonyms": ["walk", "stroll", "saunter", "amble", "hike"]
+      "example": "I ride my bike to school every day."
     },
     {
       "word": "encourage",
       "meaning": ["격려하다", "촉진하다", "장려하다"],
-      "example": "My parents always encourage me to do my best.",
-      "synonyms": ["urge", "stimulate", "motivate", "inspire", "spur"],
-      "antonyms": ["discourage", "dissuade", "dishearten", "deter", "prevent"]
+      "example": "My parents always encourage me to do my best."
     }
   ]
 }

@@ -8,7 +8,5 @@ data class WordBook(
     val word: String,
     val meaning: List<String>,
     val example: String,
-    val synonyms: List<String>,
-    val antonyms: List<String>,
   )
 }
