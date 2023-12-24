@@ -13,6 +13,10 @@ class Guess : Subcommand(name = "guess", actionDescription = "영단어 맞추�
   private val selectedIndexes = mutableSetOf<Int>()
 
   override fun execute() {
+    val green = "\u001B[32m"
+    val red = "\u001B[31m"
+    val reset = "\u001B[0m"
+
     while (selectedIndexes.size < count) {
       val idx = random.nextInt(wordBook.count)
       if (idx !in selectedIndexes) {
@@ -21,17 +25,13 @@ class Guess : Subcommand(name = "guess", actionDescription = "영단어 맞추�
     }
 
     for ((problemIdx, wordIdx) in selectedIndexes.withIndex()) {
-      val green = "\u001B[32m"
-      val reset = "\u001B[0m"
       println("$green Problem ${problemIdx + 1} / $count$reset")
       guessWord(wordIdx)
     }
 
     if (incorrectWords.isEmpty()) {
-      println("🎉 전부 맞췄습니다!")
+      println("$green 🎉 전부 맞췄습니다!$reset")
     } else {
-      val red = "\u001B[31m"
-      val reset = "\u001B[0m"
       println("$red ❌ 틀린 문제 목록$reset")
       for (word in incorrectWords) {
         println("● ${word.word} : ${word.meaning.joinToString(" / ")}")
