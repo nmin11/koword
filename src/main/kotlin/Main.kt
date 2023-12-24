@@ -4,6 +4,7 @@ import com.fasterxml.jackson.module.kotlin.readValue
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import command.Guess
 import command.Mean
+import command.Wordle
 import kotlinx.cli.ArgParser
 import model.WordBook
 import java.security.SecureRandom
@@ -30,6 +31,7 @@ class KowordApplication() {
     parser.subcommands(
       Guess(),
       Mean(),
+      Wordle(),
     )
     parser.parse(args.ifEmpty { arrayOf("-h") })
   }
