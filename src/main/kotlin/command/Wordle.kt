@@ -8,16 +8,18 @@ import kotlinx.cli.default
 import model.ColoredText
 
 class Wordle : Subcommand(name = "wordle", actionDescription = "영단어 추측 게임") {
-  private val length by option(ArgType.Int, shortName = "l", description = "단어 길이")
+  private val length by option(ArgType.Int, shortName = "l", description = "단어 길이").default(0)
   private val tries by option(ArgType.Int, shortName = "t", description = "시도 가능 횟수").default(6)
-  private val selectedWord =
-    if (length != null) {
-      wordBook.words.filter { it.word.length == length }[random.nextInt(wordBook.count)].word
-    } else {
-      wordBook.words[random.nextInt(wordBook.count)].word
-    }
 
   override fun execute() {
+    val selectedWord =
+      if (length > 0) {
+        val filtered = wordBook.words.filter { it.word.length == length }
+        filtered[random.nextInt(filtered.size)].word
+      } else {
+        wordBook.words[random.nextInt(wordBook.count)].word
+      }
+
     for (i in 1..tries) {
       val numberOfAttempts =
         when (i) {
@@ -28,7 +30,7 @@ class Wordle : Subcommand(name = "wordle", actionDescription = "영단어 추측
         }
       println("${ColoredText.GREEN}$numberOfAttempts / total $tries tries${ColoredText.RESET}")
       println("단어 길이: ${selectedWord.length}")
-      val result = wordle()
+      val result = wordle(selectedWord)
       if (result) {
         println("${ColoredText.GREEN} 🎉 정답입니다!${ColoredText.RESET}")
         break
@@ -39,14 +41,14 @@ class Wordle : Subcommand(name = "wordle", actionDescription = "영단어 추측
     }
   }
 
-  private fun wordle(): Boolean {
+  private fun wordle(selectedWord: String): Boolean {
     print(">> ")
     val answer = readln()
     if (answer == selectedWord) {
       return true
     } else if (answer.length != selectedWord.length) {
       println("단어 길이가 다릅니다.")
-      return wordle()
+      return wordle(selectedWord)
     }
 
     val answerChars = answer.toCharArray()
